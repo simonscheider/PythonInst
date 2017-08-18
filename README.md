@@ -27,5 +27,16 @@ You need a python installer to make module installation easy.
 
 - Is pip installed already? Try this in cmd.exe:
     ```python -m pip```
-    I the command is recognized, pip can be used. 
-- Otherwise, it needs to be installed. For this purpose, download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), being careful to save it as a .py file rather than .txt. you need to put pip Then, run it from the command prompt:
+    
+    If this command is recognized, pip can be used rightaway. 
+    
+- Otherwise, it needs to be installed. For this purpose, download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), being careful to save it as a .py file rather than .txt. you need to put *get-pip.py* into the installation directory. Then, run it from the command prompt:
+
+   ```python get-pip.py```
+   
+   You possibly need ad administrator command prompt to do this. Follow [Start a Command Prompt](http://technet.microsoft.com/en-us/library/cc947813(v=ws.10).aspx) as an Administrator. 
+   
+   Once pip is installed, add its path (```C:\Python27\ArcGIS10.3\Scripts\pip.exe```) to the PATH environment variable to use it directly in the command prompt (see above). Test whether everything works  with ```python -m pip```.
+   
+   
+
