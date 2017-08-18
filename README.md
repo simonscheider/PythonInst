@@ -58,8 +58,7 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
    
    ```python pip uninstall numpy```
    
-- If there is no numpy or to install anew: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/
-    for example http://pypi.python.org/packages/2.7/n/numpy/numpy-1.6.1.win32-py2.7.exe. Run the installer, select the correct Python folder (!), and follow the process to the end.
+- If there is no numpy (''no module named numpy'') or to install from scratch: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/ , for example http://pypi.python.org/packages/2.7/n/numpy/numpy-1.6.1.win32-py2.7.exe. Run the installer, select the correct Python folder (!), and follow the process to the end.
 
 - Test numpy with:
 
@@ -76,6 +75,11 @@ Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matp
 Then install *pandas* simply by
 
     ```python pip install pandas```
+    
+and test whether it works by:
+
+    ```>>> import pandas```
+   
     
   
 
