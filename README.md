@@ -5,7 +5,7 @@ Helps installing Python 2.7 with ArcGIS and other scientific libaries (Numpy, Pa
 ## 1 Localize and check your ArcGIS Python installation
 You need to know where ArcGIS's Python installation is located, and make sure your command line tool knows it, too, by setting windows environment variables.
 
-- Find the Python folder that ships with your ArcGIS installation. This is normally (for ArcMap 10.3):
+- Find the Python folder that ships with your ArcGIS installation. This is normally (for example ArcMap 10.3):
 
     ```C:\Python27\ArcGIS10.3 ```
 
