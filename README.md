@@ -1,5 +1,5 @@
 # PythonInst
-Helps installing Python 2.7 with ArcGIS and other scientific libaries (Numpy, Pandas, ...) on Windows 7
+Helps installing Python 2.7 with ArcGIS and other scientific libaries (Numpy, Pandas, ...) on Windows 7. The problem is that if you want to use arcpy together with other scientific modules, you must install these modules inside the Python version that ships with ArcGIS.
 
 
 ## 1 Localize and check your ArcGIS Python installation
@@ -71,11 +71,13 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
 
 In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check first whether packages are already present, as above).
 
-Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib (to visualize plots), http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and http://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels
+Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib (to visualize plots), http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and http://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels.
 
-Then install pandas simply by
+Then install *pandas* simply by
 
     ```python pip install pandas```
+    
+  
 
 
 
