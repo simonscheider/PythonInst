@@ -40,7 +40,7 @@ You need a python installer to make module installation easy.
    Once pip is installed, add its path (```C:\Python27\ArcGIS10.3\Scripts\pip.exe```) to the PATH environment variable to use it directly in the command prompt (see above). Test whether everything works  with ```python -m pip```.
  
 ## 3 Install/Update numpy
-Numpy is crucial for all of scientific computing. Although it ships with ArcGIS (), it often needs to be updated to a newer version that can be used with e.g. Pandas. First check whether numpy is installed and which version:
+Numpy is crucial for all of scientific computing. Although it ships with ArcGIS, it often needs to be updated to a newer version that can be used with e.g. Pandas. First check whether numpy is installed and which version:
 
 - Check whether numpy is installed in cmd.exe by typing in:
 
