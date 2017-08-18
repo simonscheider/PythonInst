@@ -58,17 +58,18 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
    
    ```python pip uninstall numpy```
    
-- If there is no numpy or to intall anew: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/
-    for example http://pypi.python.org/packages/2.7/n/numpy/numpy-1.6.1.win32-py2.7.exe. Run the installer, select the correct Python folder to install into, and follow the process to the end.
+- If there is no numpy or to install anew: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/
+    for example http://pypi.python.org/packages/2.7/n/numpy/numpy-1.6.1.win32-py2.7.exe. Run the installer, select the correct Python folder (!), and follow the process to the end.
 
-- Test it again with:
+- Test numpy with:
 
     ```>>> import numpy```
+    
     ```>>> print numpy.__version__```
     
 ## 4 Install other required packages and Pandas
 
-In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check whether packages are present before, as above).
+In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check first whether packages are already present, as above).
 
 Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib (to visualize plots), http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and http://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels
 
