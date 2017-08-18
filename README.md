@@ -68,15 +68,15 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
     
 ## 4 Install other required packages and Pandas
 
-In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check first whether packages are already present, as above).
+-In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check first whether packages are already present, as above).
 
-Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib (to visualize plots), http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and http://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels.
+-Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib (to visualize plots), http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and http://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels.
 
-Then install *pandas* simply by
+-Then install *pandas* simply by
 
     ```python pip install pandas```
     
-and test whether it works by:
+    and test whether it works by:
 
     ```>>> import pandas```
    
