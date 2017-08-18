@@ -78,7 +78,7 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
 
 - Then install *pandas* simply by
 
-  ```python pip install pandas```
+  ```python -pip install pandas```
     
   and test whether it works by:
 
@@ -89,7 +89,7 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
 
 First try to install package using:
 
-   ```python pip install yourpackage```
+   ```python -pip install yourpackage```
    
 If that fails, try the package with the newest Gohlke wheel on http://www.lfd.uci.edu/~gohlke/pythonlibs/.
 
