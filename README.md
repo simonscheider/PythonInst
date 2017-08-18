@@ -1,5 +1,5 @@
 # PythonInst
-Helps installing Python 2.7 with ArcGIS and other scientific libaries (Numpy, Pandas, ...) on Windows 7. The problem is that if you want to use arcpy together with other scientific modules in Python, you must install these modules inside the Python version that ships with ArcGIS.
+Helps installing Python 2.7 with ArcGIS and other scientific libaries (Numpy, Pandas, ...) on Windows 7. The problem is that if you want to use arcpy together with other scientific packages in Python, you must install these packages inside the Python version that ships with ArcGIS.
 
 
 ## 1 Localize and check your ArcGIS Python installation
@@ -13,12 +13,12 @@ You need to know where ArcGIS's Python installation is located, and make sure yo
 
     ```python -c "import sys; print sys.executable"```
 
-- In case python "is not recognized as an internal or external command", or in case python is recognized but the path that is dipsplayed does *not* correspond to your ArcGIS Python folder identified above: Set the right python version as an environment variable. To do so, open Control panel/System/Advanced System Settings/Environment Variable, and:     
+- In case python *is not recognized as an internal or external command*, or in case python is recognized but *the path that is displayed does not correspond* to your ArcGIS Python folder identified above: Set the right python version in the environment variables. To do so, open Control panel/System/Advanced System Settings/Environment Variables, and:     
     - Add ```C:\Python27\ArcGIS10.3``` to the end of the PATH system variable (but before any other python version)
     - Add ```C:\Python27\ArcGIS10.3``` to the end of the PYTHONPATH system variable (but before any other python version)
-    - Test whether the correct python is recognized now in the cmd window. If yes, then you can start installation of Python modules.
+    - Test whether the correct python version is recognized now in the cmd window as above. If yes, then you can start installation of Python packags.
 
-- In cmd. exe, move to the installation directory for modules. This is where all python modules get installed:
+- In cmd. exe, move to the installation directory for packages. This is where all python modules get installed:
 
    ```cd C:\Python27\ArcGIS10.3\Lib\site-packages```    
 
