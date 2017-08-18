@@ -58,11 +58,11 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
    
    ```python -pip uninstall numpy```
    
-- If there is no numpy (''no module named numpy'') or to install from scratch: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy. Put the wheel in the installation folder an install it by:
+- If there is no numpy (''no module named numpy'') or to install from scratch: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy. Put the wheel in the installation folder and install it with (using the correct filename):
 
      ```python -pip install numpy-1.11.1+mkl-cp27-cp27m-win32.whl```
 
-select the correct Python folder (!), and follow the process to the end.
+    make sure you select the correct Python folder (!).
 
 - Test numpy with:
 
