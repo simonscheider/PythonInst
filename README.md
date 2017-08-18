@@ -63,8 +63,8 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS 
 
 - Test it again with:
 
-```>>> import numpy```
-```>>> print numpy.__version__```
+    ```>>> import numpy```
+    ```>>> print numpy.__version__```
     
 ## 4 Install other required packages and Pandas
 
@@ -74,7 +74,7 @@ Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matp
 
 Then install pandas simply by
 
-```python pip install pandas``
+    ```python pip install pandas```
 
 
 
