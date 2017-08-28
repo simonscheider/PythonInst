@@ -22,7 +22,13 @@ You need to know where ArcGIS's Python installation is located, and make sure yo
 
    ```cd C:\Python27\ArcGIS10.3\Lib\site-packages```    
 
-## 2 Pip installer
+## 2 Make surce your Python development environment (IDE) uses the correct Python version
+- *IDLE* (simplest): If you use IDLE, then you just need to open the preinstalled IDLE executable in the right Python folder. This is for example:
+    ```C:\Python27\ArcGIS10.3\Lib\idlelib\idle.bat```
+    
+ - *PyScripter*:  PyScripter can be downloaded from https://sourceforge.net/projects/pyscripter/. Once installed, open Tools/Python Path. Then make sure that the path to the right Python version appears first in the ordered list. 
+
+## 3 Pip installer
 You need a python installer to make module installation easy.
 
 - Is pip installed already? Try this in cmd.exe:
@@ -39,7 +45,7 @@ You need a python installer to make module installation easy.
    
    Once pip is installed, add its path (```C:\Python27\ArcGIS10.3\Scripts\pip.exe```) to the PATH environment variable to use it directly in the command prompt (see above). Test whether everything works  with ```python -m pip```.
  
-## 3 Install/Update numpy
+## 4 Install/Update numpy
 Numpy is crucial for all of scientific computing. Although it ships with ArcGIS, it often needs to be updated to a newer version that can be used with e.g. Pandas. First check whether numpy is installed and which version:
 
 - Check whether numpy is installed in cmd.exe by typing in:
@@ -70,7 +76,7 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS,
     
     ```>>> print numpy.__version__```
     
-## 4 Install other required packages and Pandas
+## 5 Install other required packages and Pandas
 
 - In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check first whether packages are already present, as above).
 
