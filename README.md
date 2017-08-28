@@ -33,8 +33,11 @@ You need to know where ArcGIS's Python installation is located, and make sure yo
     - Then change the python engine used to "remote": PyScripter>>Run>>Python Engine>>Remote.  
     - Otherwise, it is also possible to open"Tools/Python Path".  Then make sure that the path to the right Python version appears first in the ordered list.
     
-  - *Check* the version used by a given IDE. Type into the Python Interpreted window:   
-    ```>>> import sys```
+  - ... (others possible)  
+    
+  - *Check* the version used by a given IDE. Type into the Python Interpreter window of the IDE:   
+  
+    ```>>> import sys```    
     ```>>> print sys.version```
     
 
