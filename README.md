@@ -32,6 +32,11 @@ You need to know where ArcGIS's Python installation is located, and make sure yo
        - PythonExe = C:\Python27\ArcGIS10.3\python.exe
     - Then change the python engine used to "remote": PyScripter>>Run>>Python Engine>>Remote.  
     - Otherwise, it is also possible to open"Tools/Python Path".  Then make sure that the path to the right Python version appears first in the ordered list.
+    
+  - *Check* the version used by a given IDE. Type into the Python Interpreted window:   
+    ```>>> import sys```
+    ```>>> print sys.version```
+    
 
 ## 3 Pip installer
 You need a python installer to make module installation easy.
