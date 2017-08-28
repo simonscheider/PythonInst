@@ -35,8 +35,7 @@ You need to know where ArcGIS's Python installation is located, and make sure yo
     
   - ... (others possible)  
     
-  - *Check* the version used by a given IDE. Type into the Python Interpreter window of the IDE:   
-  
+  - *Check* the version used by a given IDE. Type into the Python Interpreter window of the IDE:     
     ```>>> import sys```    
     ```>>> print sys.version```
     
