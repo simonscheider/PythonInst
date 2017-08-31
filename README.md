@@ -90,6 +90,8 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS,
     
 ## 5 Install other required packages and Pandas
 
+*Note*: When you install modules as wheels, make sure they always correspond to the bit version of your Python installation. For ArcGIS Python, that is 32 bit! If the module is 64 bit it will not work on 32 bit Python interpreter.
+
 - In the same way as numpy above, install also http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil, http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz, http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools. (Check first whether packages are already present, as above).
 
 - Optionally, you can also install http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib (to visualize plots), http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and http://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels.
