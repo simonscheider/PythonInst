@@ -70,15 +70,15 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS,
 
    If the version is older than 1.6, then first try to upgrade:
    
-   ```python -pip install --upgrade numpy```
+   ```python pip install --upgrade numpy```
    
    if that does not work, uninstall:
    
-   ```python -pip uninstall numpy```
+   ```python pip uninstall numpy```
    
 - If there is no numpy (''no module named numpy'') or to install from scratch: Click and download the newest precompiled wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy. Put the wheel in the installation folder and install it with (using the correct filename):
 
-     ```python -pip install numpy-1.11.1+mkl-cp27-cp27m-win32.whl```
+     ```python pip install numpy-1.11.1+mkl-cp27-cp27m-win32.whl```
 
     make sure you select the correct Python folder (!).
 
@@ -107,7 +107,7 @@ Numpy is crucial for all of scientific computing. Although it ships with ArcGIS,
 
 First try to install package using:
 
-   ```python -pip install yourpackage```
+   ```python pip install yourpackage```
    
 If that fails, try the package with the newest Gohlke wheel on http://www.lfd.uci.edu/~gohlke/pythonlibs/.
 
